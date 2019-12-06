@@ -8,13 +8,13 @@
 
 选中对应表  - `ctrl + b`
 
-![](http://images.atomblogs.com/20190903205128.png)
+![create-table-ddl-sql.png](http://193.112.98.8/atomImg/datagrid/create-table-ddl-sql.png)
 
 #### 重命名表 `rename table`
 
 选中对应表 - `shift + F6`
 
-![](http://images.atomblogs.com/20190903205525.png)
+![rename-table.png](http://193.112.98.8/atomImg/datagrid/rename-table.png)
 
 
 
@@ -28,11 +28,11 @@
 
 #### 快速打开 `console` 可以输入命令操作指令
 
-![](http://images.atomblogs.com/20190903211034.png)
+![open-console.png](http://193.112.98.8/atomImg/datagrid/open-console.png)
 
 **运行命令**
 
-![](http://images.atomblogs.com/20190903211309.png)
+![run-command.png](http://193.112.98.8/atomImg/datagrid/run-command.png)
 
 
 
@@ -50,7 +50,7 @@
 
 `ctrl + n`对比`idea` 查找类
 
-![](http://images.atomblogs.com/20190904083653.png)
+![fast-select.png](http://193.112.98.8/atomImg/datagrid/fast-select.png)
 
 
 
@@ -58,11 +58,11 @@
 
 > 以前每次使用`navicat` 的时候, 快速查找真的是一件很麻烦的事情
 
-![](http://images.atomblogs.com/20190904084041.png)
+![fast-select-eg.png](http://193.112.98.8/atomImg/datagrid/fast-select-eg.png)
 
 比如我们要检索文章标题中带有 `linux` 字样的文章, 在上方输入框中 输入 `title like '%linux%'`  按回车即可
 
-![](http://images.atomblogs.com/20190904084155.png)
+![fast-select.png](http://193.112.98.8/atomImg/datagrid/fast-select.png)
 
 #### 删除一条记录(与`Idea`中删除一行代码类似)
 
@@ -84,10 +84,25 @@
 
 - 如果在界面中存在多条`sql`, 输入完毕后, 输入 `ctrl + enter` 那么会弹出让你选择执行的`sql`段, 默认选中当前段, 再次按`enter` 即可
 
-  ![](http://images.atomblogs.com/20190904085551.png)
+  ![run-sql.png](http://193.112.98.8/atomImg/datagrid/run-sql.png)
 
 > 这样就避免的选中 `sql` 实属神器
 
 
 
-### 
+###  快速对比两个数据库差异
+
+> 这个是真神器了, 在上线时对比测试环境和生产环境数据库之间存在的差异
+
+按住 `ctrl` 选中要对比的数据库, 按 `ctrl + d`即可对比,
+
+可以查看两个数据库之间的差距, 并生成对应的 `sql`
+
+![](https://raw.githubusercontent.com/xiaoxiunique/Web-Tip/master/20191119085055.png)
+
+![](https://raw.githubusercontent.com/xiaoxiunique/Web-Tip/master/20191119085358.png)
+
+点击`Migrate Left` , 生成转化为右侧表对应的`Sql`
+
+![](https://raw.githubusercontent.com/xiaoxiunique/Web-Tip/master/20191119085648.png)
+

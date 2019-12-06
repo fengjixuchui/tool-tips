@@ -1,10 +1,11 @@
 ### idea 快捷键
 #### 通用类快捷键
 
-**方法参数提示**
-```
-ctrl + p
-```
+**方法参数提示 **`ctrl + p`
+
+> 非常实用的快捷键, 有的时候我们自己写的方法, 或者在看一些源码时, 都非常有用
+
+![](https://raw.githubusercontent.com/xiaoxiunique/Web-Tip/master/20191119090347.png)
 
 
 
@@ -26,7 +27,7 @@ ctrl + shift + F
 
 
 
-快速查找和打开最近使用过的文件码**
+**快速查找和打开最近使用过的文件码**
 
 ```
 ctrl + E
@@ -39,6 +40,8 @@ ctrl + E
 ```
 ctrl + j
 ```
+
+![](https://raw.githubusercontent.com/xiaoxiunique/Web-Tip/master/ctrlj.gif)
 
 
 
@@ -69,12 +72,15 @@ ctrl + shfit + j
 > 有时候在写完一行代码的时候需要添加注释, 或者为类属性添加注释的时候需要跳到当前行的上一行, 这个快捷键就非常方便
 
 ```
-
 ctrl + alt + enter
 ```
 
+![](https://raw.githubusercontent.com/xiaoxiunique/Web-Tip/master/ctrlaltenter.gif)
+
+
 
 **idea git 提交**
+
 ```
 ctrl + k
 ```
@@ -113,7 +119,7 @@ ctrl + alt + o
 
 
 
-进入设置界面**
+**进入设置界面**
 
 ```
 ctrl + alt + s
@@ -171,7 +177,7 @@ ctrl + n
 alt + shift + t
 ```
 
-> 当你实验了之后, 你会爱上这个快捷键的
+> 当你试用了之后, 你会爱上这个快捷键的
 
 
 
@@ -275,7 +281,7 @@ ctrl + shift + F9
 ctrl + shift + i
 ```
 
-![](http://images.atomblogs.com/20190905083633.png)
+![asdf](http://193.112.98.8/atomImg/key/ctrl-shift-i.png)
 
 
 
@@ -288,13 +294,13 @@ ctrl + ~
 
 **Switch Code Formatter (切换代码格式化程序)**
 
-
-
 **1. Color Scheme (配色方案)**
 
 可以设置一些常用的配色, 字体样式, 可以一键切换
 
-![](http://images.atomblogs.com/test (1).gif)
+![asdf](http://193.112.98.8/atomImg/key/ctrl-~-change-background.gif)
+
+
 
 **2. `Code Style Scheme`**
 
@@ -302,11 +308,11 @@ ctrl + ~
 
 **3. `Keymap` (快捷键列表)**
 
-![](http://images.atomblogs.com/test (2).gif)
+![asdf](http://193.112.98.8/atomImg/key/ctrl-~-keymap.gif)
 
 **4. View Mode (显示模式)**
 
-![](http://images.atomblogs.com/test (2).gif)
+![asdf](http://193.112.98.8/atomImg/key/ctrl-~-view-model.gif)
 
 **5. Look and Feel (设置软件主题)**
 
